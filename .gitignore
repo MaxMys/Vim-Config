@@ -1,27 +1,30 @@
-*.py[co]
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
 
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
+pids
+logs
+results
 
-# Installer logs
-pip-log.txt
+node_modules
+npm-debug.log
 
-# Unit test / coverage reports
-.coverage
-.tox
-
-#Translations
-*.mo
-
-#Mr Developer
-.mr.developer.cfg
+*.buildpath
+*.project
+*.settings/
+*.bak
+*.swp
+*.backup
+Tmp/
+Docs/
+*~
+RemoteSystemsTempFiles/
+./.meta*
+/OtherServer/
+nohup*
+.DS_Store
